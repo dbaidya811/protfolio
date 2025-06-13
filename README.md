@@ -5,6 +5,8 @@
 
 ---
 
+</div>
+
 ## **📌 Overview**  
 A sleek, animated portfolio built with **React, TypeScript, and Framer Motion** for smooth transitions and modern UI effects. Designed to showcase projects, skills, and contact information in an interactive way.  
 
@@ -60,6 +62,40 @@ yarn build
 ```
 
 ---
+## **🛠️ Tech Stack**  
+
+### **Frontend**  
+<div align="left">
+
+![React](https://skillicons.dev/icons?i=react)
+![TypeScript](https://skillicons.dev/icons?i=typescript)
+![Vite](https://skillicons.dev/icons?i=vite)
+![Tailwind](https://skillicons.dev/icons?i=tailwind)
+![Framer](https://skillicons.dev/icons?i=framer)
+
+</div>
+
+### **Tools & Deployment**  
+<div align="left">
+
+![Git](https://skillicons.dev/icons?i=git)
+![Vercel](https://skillicons.dev/icons?i=vercel)
+![VSCode](https://skillicons.dev/icons?i=vscode)
+
+</div>
+
+---
+
+## **📌 Connect With Me**  
+<div align="left">
+
+[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/dbaidya811)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/dbaidya811)
+[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/dbaidya811)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/dbaidya811)
+
+</div>
+
 
 ## **🎨 Customization**  
 - **Edit Content:** Modify `src/data/projects.ts`, `src/data/skills.ts`  
