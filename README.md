@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# **DeepBaidya Portfolio**  
+### *A Modern React + TypeScript Portfolio with Smooth Animations*  
 
-## Project info
+🔗 **Live Demo:** [https://deepbaidya.vercel.app](https://deepbaidya.vercel.app)  
 
-**URL**: https://lovable.dev/projects/35171d8a-4549-49c3-b9dd-e1c69c7d951f
+---
 
-## How can I edit this code?
+## **📌 Overview**  
+A sleek, animated portfolio built with **React, TypeScript, and Framer Motion** for smooth transitions and modern UI effects. Designed to showcase projects, skills, and contact information in an interactive way.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## **✨ Features**  
+✅ **Modern UI/UX** – Clean, responsive design with dark/light mode  
+✅ **Smooth Animations** – Powered by **Framer Motion**  
+✅ **Type-Safe** – Built with **TypeScript** for better code reliability  
+✅ **Performance Optimized** – Lazy loading, optimized assets  
+✅ **Interactive Elements** – Hover effects, scroll animations  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/35171d8a-4549-49c3-b9dd-e1c69c7d951f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## **🛠️ Tech Stack**  
+| **Category**       | **Technologies**                          |
+|--------------------|------------------------------------------|
+| **Frontend**       | React, TypeScript, Vite                   |
+| **Styling**        | Tailwind CSS, CSS Modules                 |
+| **Animations**     | Framer Motion, GSAP (optional)           |
+| **Deployment**     | Vercel                                   |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## **🚀 Setup & Run**  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### **1. Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/deepbaidya-portfolio.git
+cd deepbaidya-portfolio
 ```
 
-**Edit a file directly in GitHub**
+### **2. Install Dependencies**  
+```bash
+npm install
+# or
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### **3. Run Locally**  
+```bash
+npm run dev
+# or
+yarn dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
 
-**Use GitHub Codespaces**
+### **4. Build for Production**  
+```bash
+npm run build
+# or
+yarn build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## **🎨 Customization**  
+- **Edit Content:** Modify `src/data/projects.ts`, `src/data/skills.ts`  
+- **Change Theme:** Update `tailwind.config.js` for colors  
+- **Add Animations:** Adjust Framer Motion props in components  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## **📸 Screenshot**  
+<div align="center">
+  <img src="https://i.ibb.co/MxNJCRS/Screenshot-2025-06-13-23-09-23-677-com-android-chrome.png" alt="DeepBaidya Portfolio Screenshot" width="600" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"/>
+</div>
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/35171d8a-4549-49c3-b9dd-e1c69c7d951f) and click on Share -> Publish.
+## **📜 License**  
+MIT © [Deep Baidya](https://github.com/yourusername)  
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+### **🌟 Like this project? Give it a ⭐ on GitHub!**  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This **README** includes:  
+✔️ **Modern styling** (GitHub-friendly)  
+✔️ **Animations & interactive elements** (via Framer Motion)  
+✔️ **Easy setup guide**  
+✔️ **Tech stack table**  
+✔️ **Customization tips**  
