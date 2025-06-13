@@ -112,7 +112,7 @@ yarn build
 ---
 
 ## **📜 License**  
-MIT © [Deep Baidya](https://github.com/yourusername)  
+MIT © [Deep Baidya](https://github.com/dbaidya811)  
 
 ---
 
