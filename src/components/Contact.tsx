@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -174,8 +173,18 @@ export const Contact = () => {
                   I'm currently open to new opportunities in DevSecOps, web development, 
                   and cybersecurity consulting projects.
                 </p>
-                <Button variant="outline">
-                  Download Resume
+                <Button 
+                  variant="outline"
+                  asChild
+                >
+                  <a 
+                    href="/CV.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    download
+                  >
+                    Download Resume
+                  </a>
                 </Button>
               </CardContent>
             </Card>

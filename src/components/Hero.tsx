@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail, Coffee } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -47,11 +46,33 @@ export const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-in">
-            <Button size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3">
-              View My Work
+            <Button 
+              size="lg" 
+              className="text-base sm:text-lg px-6 sm:px-8 py-3"
+              asChild
+            >
+              <a 
+                href="https://github.com/dbaidya811" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                View My Work
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3">
-              Download CV
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-base sm:text-lg px-6 sm:px-8 py-3"
+              asChild
+            >
+              <a 
+                href="/CV.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                download
+              >
+                Download CV
+              </a>
             </Button>
             <Button 
               variant="secondary" 
